@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./NavBar.css";
 
 export default function NavBar() {
     return (
-        <>
+        <div className="NavBar">
             <h1>Luke Tyson || Fullstack Developer </h1>
 
             <Link to="/projects">
@@ -17,10 +18,6 @@ export default function NavBar() {
             <Link to="/about">
                 <h3>About</h3>
             </Link>
-
-            <Link to="/contact">
-                <h3>Contact</h3>
-            </Link>
-        </>
+        </div>
     );
 }

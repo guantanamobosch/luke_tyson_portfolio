@@ -1,0 +1,9 @@
+#resume-container {
+    height: 100%;
+    overflow: auto;
+}
+
+.resume {
+    max-width: 100%;
+    height: auto;
+}

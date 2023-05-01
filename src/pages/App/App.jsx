@@ -5,6 +5,11 @@ import MyResume from "../MyResume/MyResume";
 import AboutMe from "../AboutMe/AboutMe";
 import headshot from "../../Images/portfolioheadshot.jpg";
 import "./App.css";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import EmailIcon from "@mui/icons-material/Email";
+import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { Link } from "@mui/material";
 
 function App() {
     return (
@@ -20,11 +25,16 @@ function App() {
                         />
                     </div>
                     <div id="contact-container">
-                        <ul>
-                            <li>Email</li>
-                            <li>Phone Number</li>
-                            <li>LinkedIn</li>
-                        </ul>
+                        <a href="https://github.com/guantanamobosch">
+                            <GitHubIcon />
+                        </a>
+                        <a href="mailto:luketyson17@gmail.com?subject=Hello&body=Hi%20there!">
+                            <EmailIcon />
+                        </a>
+                        <a href="https://www.linkedin.com/in/luke-tyson-dev/">
+                            <LinkedInIcon />
+                        </a>
+                        <LocalPhoneIcon />
                     </div>
                 </div>
                 <div className="route-card">

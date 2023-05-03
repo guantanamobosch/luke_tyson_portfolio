@@ -1,7 +1,9 @@
 :root {
-    --my-green: #6A8D73;
-    --my-white: #F4FDD9;
-    --my-black: #0d1321;
+    --reseda: #1a9338;
+    --lite: #F4FDD9;
+    --rich: #0d1321;
+    --smoke: #F3F3F3;
+    --blush: #E75A7C;
 }
 
 html {
@@ -15,7 +17,7 @@ html {
 body {
     height: 100%;
     width: 100%;
-    background-color: var(--my-white);
+    background-color: var(--smoke);
 }
 
 #root {
@@ -28,13 +30,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid purple;
     height: 100%;
 }
 
 .main-card {
-    border: 1px solid red;
-    background-color: var(--my-green);
+    /* border: 1px solid red; */
+    background-color: var(--reseda);
     box-shadow: 5px 5px 5px;
     border-radius: 10px;
     display: flex;
@@ -45,7 +46,8 @@ body {
 
 #headshot-and-contact-container {
     border-radius: 10px;
-    background-color: var(--my-white);
+    border: 2px solid var(--blush);
+    background-color: var(--lite);
     max-width: 25%;
     height: 85%;
     display: flex;
@@ -54,30 +56,12 @@ body {
     align-self: center;
 }
 
-#contact-container {
-    border: 1px solid red;
-    width: 40%;
-    margin: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-
 .route-card {
-    border: 1px solid blue;
+    border: 2px solid var(--blush);
+    background-color: var(--smoke);
     border-radius: 10px;
     max-width: 70%;
     min-width: 70%;
     height: 95%;
-}
-
-#headshot-container {
-    width: 40%;
-    margin: 20px;
-}
-
-#headshot {
-    width: 100%;
-    height: auto;
-    border-radius: 100%;
-    border: 10px solid gold;
+    align-self: center;
 }

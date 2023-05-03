@@ -1,0 +1,11 @@
+#headshot-container {
+    width: 40%;
+    margin: 20px;
+}
+
+#headshot {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border: 10px solid var(--blush);
+}

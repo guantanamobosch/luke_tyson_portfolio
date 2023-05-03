@@ -1,11 +1,19 @@
 .NavBar {
-    width: 100%;
+    width: 95%;
     display: flex;
-    justify-content: space-around;
-    border: 1px solid red;
-    background-color: var(--my-green);
+    justify-content: space-around;;
+    /* border: 1px solid red; */
+    /* background-color: var(--reseda); */
+    background-image: linear-gradient(.25turn, var(--smoke), 30%, var(--reseda));
+    border-radius: 10px 0px 0px 10px;
+    align-self: flex-end;
 }
 
-.NavBar h1 h3 {
-    color: var(--my-black);
+.NavBar h1 {
+    color: var(--rich);
+    align-self: flex-start;
+}
+
+.NavBar > a {
+    color: var(--smoke);
 }

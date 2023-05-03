@@ -1,5 +1,5 @@
 :root {
-    --reseda: #1a9338;
+    --reseda: #51b069;
     --lite: #F4FDD9;
     --rich: #0d1321;
     --smoke: #F3F3F3;
@@ -35,7 +35,7 @@ body {
 
 .main-card {
     /* border: 1px solid red; */
-    background-color: var(--reseda);
+    background-color: var(--blush);
     box-shadow: 5px 5px 5px;
     border-radius: 10px;
     display: flex;

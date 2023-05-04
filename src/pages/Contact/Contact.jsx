@@ -8,13 +8,25 @@ import "./Contact.css";
 export default function Contact() {
     return (
         <div id="contact-container">
-            <a href="https://github.com/guantanamobosch">
+            <a
+                href="https://github.com/guantanamobosch"
+                target="_blank"
+                rel="noreferrer"
+            >
                 <GitHubIcon />
             </a>
-            <a href="mailto:luketyson17@gmail.com?subject=Hello&body=Hi%20there!">
+            <a
+                href="mailto:luketyson17@gmail.com?subject=Hello&body=Hi%20there!"
+                target="_blank"
+                rel="noreferrer"
+            >
                 <EmailIcon />
             </a>
-            <a href="https://www.linkedin.com/in/luke-tyson-dev/">
+            <a
+                href="https://www.linkedin.com/in/luke-tyson-dev/"
+                target="_blank"
+                rel="noreferrer"
+            >
                 <LinkedInIcon />
             </a>
             <LocalPhoneIcon />

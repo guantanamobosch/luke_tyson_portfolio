@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 :root {
     --reseda: #51b069;
     --lite: #F4FDD9;
-    --rich: #0d1321;
     --smoke: #F3F3F3;
     --blush: #E75A7C;
+    
+    --gunmetal: #1828251;
+    --coquelicot: #F15025;
+    --platinum: #E6E8E6;
 }
 
 html {
@@ -17,7 +22,7 @@ html {
 body {
     height: 100%;
     width: 100%;
-    background-color: var(--smoke);
+    background-color: white);
 }
 
 #root {
@@ -29,27 +34,26 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     height: 100%;
 }
 
 .main-card {
-    /* border: 1px solid red; */
-    background-color: var(--blush);
-    box-shadow: 5px 5px 5px;
+    background-color: var(--platinum);
+    box-shadow: 2px 2px 2px;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
-    width: 90%;
-    height: 80%;
+    margin-bottom: 5px;
+    width: 95%;
+    height: 87%;
 }
 
 #headshot-and-contact-container {
     border-radius: 10px;
-    border: 2px solid var(--blush);
-    background-color: var(--lite);
+    /* border: 2px solid var(--blush); */
+    background-color: #f151259c;
     max-width: 25%;
-    height: 85%;
+    height: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,8 +61,8 @@ body {
 }
 
 .route-card {
-    border: 2px solid var(--blush);
-    background-color: var(--smoke);
+    /* border: 2px solid var(--blush); */
+    background-color: white;
     border-radius: 10px;
     max-width: 70%;
     min-width: 70%;

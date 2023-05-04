@@ -8,15 +8,15 @@ export default function NavBar() {
             <h1>Luke Tyson || Fullstack Developer </h1>
 
             <Link to="/projects">
-                <h3>Projects</h3>
+                <h3>projects</h3>
             </Link>
 
             <Link to="/resume">
-                <h3>Resume</h3>
+                <h3>resume</h3>
             </Link>
 
             <Link to="/about">
-                <h3>About</h3>
+                <h3>about</h3>
             </Link>
         </div>
     );

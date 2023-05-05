@@ -1,0 +1,8 @@
+#big-project-container {
+    height: 100%;
+    overflow: auto;
+}
+
+.project-screenshot {
+    max-width: 100px;
+}

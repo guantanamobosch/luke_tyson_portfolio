@@ -9,6 +9,7 @@
     --gunmetal: #2C3539;
     --coquelicot: #F15025;
     --platinum: #e6e8e66a;
+    --my-gold: rgba(255, 217, 0, 0.927);
 }
 
 html {
@@ -44,8 +45,8 @@ body {
     display: flex;
     justify-content: space-around;
     margin-bottom: 5px;
-    width: 95%;
-    height: 87%;
+    width: 97%;
+    height: 88%;
 }
 
 #headshot-and-contact-container {

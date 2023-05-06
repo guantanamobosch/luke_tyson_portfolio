@@ -1,7 +1,26 @@
 #contact-container {
     /* border: 1px solid red; */
-    width: 40%;
+    width: 90%;
+    height: 30%;
     margin: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+}
+
+.single-contact {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+.single-contact > a {
+    color: var(--lite);
+}
+
+hr {
+    width: 20%;
+    height: 2px;
+    border-style: none;
+    background-color: rgba(255, 217, 0, 0.927);
+    color: rgba(255, 217, 0, 0.927);
 }

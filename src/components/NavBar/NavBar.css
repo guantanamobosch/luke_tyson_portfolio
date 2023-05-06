@@ -1,19 +1,28 @@
 .NavBar {
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    background-image: linear-gradient(.25turn, var(--platinum), 30%, var(--coquelicot));
-    /* border-radius: 10px 0px 0px 10px; */
+    justify-content: space-between;
+    background-image: radial-gradient(circle farthest-corner at top left, var(--my-gold) 5%, var(--coquelicot) 95%);
     box-shadow: 0px 1px 5px var(--gunmetal);
     margin-bottom: auto;
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.NavBar h1 {
-    color: var(--rich);
-    /* margin-right: auto; */
+#navbar-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5%;
 }
 
-.NavBar > a {
-    color: var(--gunmetal);
+#navbar-title h1 {
+    color: var(--rich);
+}
+
+#navbar-links > a {
+    color: var(--lite);
+}
+
+#navbar-links > a > h3 {
+    font-size: 1.3em;
 }

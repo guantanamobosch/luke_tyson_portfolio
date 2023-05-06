@@ -18,7 +18,7 @@ function App() {
                 </div>
                 <div className="route-card">
                     <Routes>
-                        <Route path="/projects" element={<Projects />} />
+                        <Route path="/" element={<Projects />} />
                         <Route path="/resume" element={<MyResume />} />
                         <Route path="/about" element={<AboutMe />} />
                     </Routes>

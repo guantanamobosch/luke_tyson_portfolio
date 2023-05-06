@@ -3,6 +3,10 @@
     overflow: auto;
 }
 
+#big-project-container > h1 {
+    text-align: center;
+}
+
 .project-screenshot {
     max-width: 100px;
 }

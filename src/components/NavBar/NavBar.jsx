@@ -5,19 +5,23 @@ import "./NavBar.css";
 export default function NavBar() {
     return (
         <div className="NavBar">
-            <h1>Luke Tyson || Fullstack Developer </h1>
+            <div id="navbar-title">
+                <h1>Luke Tyson || Fullstack Developer </h1>
+            </div>
 
-            <Link to="/projects">
-                <h3>projects</h3>
-            </Link>
+            <div id="navbar-links">
+                <Link to="/">
+                    <h3>projects</h3>
+                </Link>
 
-            <Link to="/resume">
-                <h3>resume</h3>
-            </Link>
+                <Link to="/resume">
+                    <h3>resume</h3>
+                </Link>
 
-            <Link to="/about">
-                <h3>about</h3>
-            </Link>
+                <Link to="/about">
+                    <h3>about</h3>
+                </Link>
+            </div>
         </div>
     );
 }

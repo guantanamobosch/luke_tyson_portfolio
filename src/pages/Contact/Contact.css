@@ -3,6 +3,7 @@
     width: 90%;
     height: 30%;
     margin: 20px;
+    overflow: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

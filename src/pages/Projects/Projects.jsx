@@ -18,15 +18,15 @@ export default function Projects() {
                 </p>
                 <p>
                     To create our app we used a <strong>full MERN-stack</strong>
-                    , as well as
-                    <strong>socket.io</strong>, <strong>axios</strong>,{" "}
-                    <strong>Material UI</strong>, and <strong>Bcrypt</strong>.
-                    As a teammate, I focused primarily on backend development,
-                    although I did choose the color scheme and designed the UI
-                    for the main chat page of the app. In the backend, I built
-                    our Mongoose models, wrote most of our API requests, managed
-                    our database, and collaborated with Sean to build and refine
-                    our socket connections for the chat interface.
+                    , as well as <strong>socket.io</strong>,{" "}
+                    <strong>axios</strong>, <strong>Material UI</strong>, and{" "}
+                    <strong>Bcrypt</strong>. As a teammate, I focused primarily
+                    on backend development, although I did choose the color
+                    scheme and designed the UI for the main chat page of the
+                    app. In the backend, I built our Mongoose models, wrote most
+                    of our API requests, managed our database, and collaborated
+                    with Sean to build and refine our socket connections for the
+                    chat interface.
                 </p>
                 <p></p>
                 <p>

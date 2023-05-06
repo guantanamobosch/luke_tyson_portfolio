@@ -68,5 +68,6 @@ body {
     max-width: 70%;
     min-width: 70%;
     height: 95%;
+    margin: 0.1%;
     align-self: center;
 }

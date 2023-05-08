@@ -1,5 +1,6 @@
 import React from "react";
 import headshot from "../../Images/portfolioheadshot.jpg";
+import snake from "../../Images/SNAKE.png";
 import "./Projects.css";
 
 export default function Projects() {
@@ -30,8 +31,15 @@ export default function Projects() {
                 </p>
                 <p></p>
                 <p>
-                    Check out the: <a href="">Github Repo</a> or{" "}
-                    <a href="">the site itself</a>!
+                    Check out the:{" "}
+                    <a href="https://github.com/guantanamobosch/Jam">
+                        Github Repo
+                    </a>{" "}
+                    or{" "}
+                    <a href="https://jam-chat.herokuapp.com/">
+                        the site itself
+                    </a>
+                    !
                 </p>
             </div>
             <h3>
@@ -77,11 +85,32 @@ export default function Projects() {
             </div>
             <h3>Snake - Desktop Game</h3>
             <div className="project-container">
-                <img src={headshot} alt="" className="project-screenshot" />
-                <p></p>
+                <img src={snake} alt="" className="project-screenshot" />
                 <p>
-                    Check out the: <a href="">Github Repo</a> or{" "}
-                    <a href="">the site itself</a>!
+                    Snake is a desktop game that I designed as my first ever
+                    project. I wanted to test my ability to use JavaScript and
+                    HTML DOM manipulation to make a functional game, and I
+                    decided to make one of my favorites.
+                </p>
+                <p>
+                    I made the game using nothing but <strong>HTML</strong>,{" "}
+                    <strong>CSS</strong>, and <strong>JavaScript</strong>. I
+                    created a grid of div elements in my HTML, used
+                    background-color to signify the snake and its apple, and
+                    wrote some basic algorithms to handle the movement of the
+                    snake, its eating of the apple, and collisions with the
+                    walls.
+                </p>
+                <p>
+                    Check out the:{" "}
+                    <a href="https://github.com/guantanamobosch/SEI-Project1-Snake-Game">
+                        Github Repo
+                    </a>{" "}
+                    or{" "}
+                    <a href="https://guantanamobosch.github.io/SEI-Project1-Snake-Game/">
+                        the site itself
+                    </a>
+                    !
                 </p>
             </div>
         </div>

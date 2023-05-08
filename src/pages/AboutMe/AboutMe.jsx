@@ -20,6 +20,15 @@ export default function AboutMe() {
                 React.
             </p>
             <p>
+                Before becoming a developer, I had accrued over ten years of
+                professional experience in customer-oriented roles, working with
+                various teams to provide excellent service to my community. I've
+                loved the opportunities I've had to meet and work with clients
+                and peers from all different backgrounds, and I look forward
+                meeting to the many more people that I have yet to collaborate
+                with!
+            </p>
+            <p>
                 Besides being a coder, I am also an avid reader, a prolific
                 musician, a butter-fingered climber of rocks, a Dungeons and
                 Dragons enjoyer, an amateur weightlifter, an ex-chimney sweep, a
@@ -28,8 +37,8 @@ export default function AboutMe() {
             </p>
             <p>
                 Please use the nav bar above to check out my resume and my
-                portfolio projects. If you are a recruiter, employer, fellow
-                programmer, or if you've got some laundry for me to fold, please
+                portfolio projects. If you are a recruiter, employer, or fellow
+                programmer (or if you've got some laundry for me to fold) please
                 feel free to reach out to me through the contact information on
                 the left.
             </p>

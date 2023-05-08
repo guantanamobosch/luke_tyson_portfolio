@@ -1,12 +1,40 @@
 #big-project-container {
     height: 100%;
     overflow: auto;
+    /* background-color: #f1512542; */
+    background-color: #f151259c;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #big-project-container > h1 {
+    text-shadow: 2px 2px white;
+    color: var(--gunmetal);
+}
+
+#big-project-container > h3 {
     text-align: center;
+    text-shadow: 1px 1px white;
+    color: var(--gunmetal);
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-container > p {
+    color: var(--gunmetal);
+    text-indent: 30px;
 }
 
 .project-screenshot {
-    max-width: 100px;
+    align-self: center;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.repo-and-site {
+    text-align: right;
 }

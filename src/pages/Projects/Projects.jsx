@@ -1,5 +1,8 @@
 import React from "react";
 import headshot from "../../Images/portfolioheadshot.jpg";
+import jam from "../../Images/JAM.png";
+import slackoverflow from "../../Images/SLACKOVERFLOW.png";
+import netbuster from "../../Images/NETBUSTER.png";
 import snake from "../../Images/SNAKE.png";
 import "./Projects.css";
 
@@ -9,7 +12,7 @@ export default function Projects() {
             <h1>Projects</h1>
             <h3>Jam - Fullstack Web-based Chat Application</h3>
             <div className="project-container">
-                <img src={headshot} alt="" className="project-screenshot" />
+                <img src={jam} alt="" className="project-screenshot" />
                 <p>
                     Jam is a chat application that I made in one week together
                     with Ali Colak and Sean Munjal. We envisioned a sleek and
@@ -30,7 +33,7 @@ export default function Projects() {
                     chat interface.
                 </p>
                 <p></p>
-                <p>
+                <p className="repo-and-site">
                     Check out the:{" "}
                     <a href="https://github.com/guantanamobosch/Jam">
                         Github Repo
@@ -46,7 +49,11 @@ export default function Projects() {
                 Slack Overflow - Fullstack Web-based Message Board Application
             </h3>
             <div className="project-container">
-                <img src={headshot} alt="" className="project-screenshot" />
+                <img
+                    src={slackoverflow}
+                    alt=""
+                    className="project-screenshot"
+                />
                 <p>
                     Slack Overflow is a message board application that I made in
                     one week together with Josh Pent. For this project, we chose
@@ -62,25 +69,56 @@ export default function Projects() {
                     wanted to give users the ability to create their own private
                     boards for their teammates, classmates, and friends where
                     they could also organize posts by languages, frameworks, or
-                    by any subject of their choice.
+                    by any subject of their choice. To do this, we took a
+                    bare-bones approach and built our app with a{" "}
+                    <strong>Django and Python stack</strong>, and deployed it to{" "}
+                    <strong>Heroku</strong>.
                 </p>
-                <p>
-                    To do this, we took a bare-bones approach and built our app
-                    with a <strong>Django and Python stack</strong>, and
-                    deployed it to <strong>Heroku</strong>.
-                </p>
-                <p>
-                    Check out the: <a href="">Github Repo</a> or{" "}
-                    <a href="">the site itself</a>!
+
+                <p className="repo-and-site">
+                    Check out the:{" "}
+                    <a href="https://github.com/joshuapent/SlackOverFlow">
+                        Github Repo
+                    </a>{" "}
+                    or{" "}
+                    <a href="https://slackoverflow.herokuapp.com/accounts/login/">
+                        the site itself
+                    </a>
+                    !
                 </p>
             </div>
             <h3>Netbuster - Fullstack Web-based Video Library</h3>
             <div className="project-container">
-                <img src={headshot} alt="" className="project-screenshot" />
-                <p></p>
+                <img src={netbuster} alt="" className="project-screenshot" />
                 <p>
-                    Check out the: <a href="">Github Repo</a> or{" "}
-                    <a href="">the site itself</a>!
+                    Netbuster is a web-based video library that I made in one
+                    week together with Brandon Piquant. We wanted to recreate
+                    Netflix's video library, but branded in the style of their
+                    former-competitor, Blockbuster. We chose a lighthearted
+                    theme for the branding, and sought to create a sense of
+                    nostalgia for viewers who visit the page.
+                </p>
+                <p>
+                    To do this, we used a full MEN-stack (
+                    <strong>MongoDB & Mongoose</strong>,{" "}
+                    <strong>Express</strong>, and <strong>Node.js</strong>).
+                    While Brandon led most of our front-end design, I worked on
+                    the backend to model our data for user info and
+                    authentication, and our media library. We found movie
+                    trailers on the web which we used as seed data to create the
+                    site's first instantiation, and populated the site using API
+                    calls to our database.{" "}
+                </p>
+                <p>
+                    Additionally, we added a 'Chill' page which loads a gif of
+                    some candles and auto-plays Ginuwine's 1996 hit, 'Pony'.
+                </p>
+                <p className="repo-and-site">
+                    Check out the:{" "}
+                    <a href="https://github.com/guantanamobosch/netbuster_project">
+                        Github Repo
+                    </a>{" "}
+                    or <a href="">the site itself</a>!
                 </p>
             </div>
             <h3>Snake - Desktop Game</h3>
@@ -90,7 +128,9 @@ export default function Projects() {
                     Snake is a desktop game that I designed as my first ever
                     project. I wanted to test my ability to use JavaScript and
                     HTML DOM manipulation to make a functional game, and I
-                    decided to make one of my favorites.
+                    decided to make one of my favorites. I used{" "}
+                    <strong>Figma</strong> to design the main background image,
+                    and nested the rest of my HTML and CSS within it.
                 </p>
                 <p>
                     I made the game using nothing but <strong>HTML</strong>,{" "}
@@ -101,7 +141,7 @@ export default function Projects() {
                     snake, its eating of the apple, and collisions with the
                     walls.
                 </p>
-                <p>
+                <p className="repo-and-site">
                     Check out the:{" "}
                     <a href="https://github.com/guantanamobosch/SEI-Project1-Snake-Game">
                         Github Repo

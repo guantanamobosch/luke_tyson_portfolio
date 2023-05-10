@@ -12,7 +12,11 @@ export default function Projects() {
             <h1>Projects</h1>
             <h3>Jam - Fullstack Web-based Chat Application</h3>
             <div className="project-container">
-                <img src={jam} alt="" className="project-screenshot" />
+                <img
+                    src={jam}
+                    alt="Screenshot of the main chat page for Jam."
+                    className="project-screenshot"
+                />
                 <p>
                     Jam is a chat application that I made in one week together
                     with Ali Colak and Sean Munjal. We envisioned a sleek and
@@ -32,7 +36,6 @@ export default function Projects() {
                     with Sean to build and refine our socket connections for the
                     chat interface.
                 </p>
-                <p></p>
                 <p className="repo-and-site">
                     Check out the:{" "}
                     <a href="https://github.com/guantanamobosch/Jam">
@@ -74,7 +77,6 @@ export default function Projects() {
                     <strong>Django and Python stack</strong>, and deployed it to{" "}
                     <strong>Heroku</strong>.
                 </p>
-
                 <p className="repo-and-site">
                     Check out the:{" "}
                     <a href="https://github.com/joshuapent/SlackOverFlow">
@@ -89,7 +91,11 @@ export default function Projects() {
             </div>
             <h3>Netbuster - Fullstack Web-based Video Library</h3>
             <div className="project-container">
-                <img src={netbuster} alt="" className="project-screenshot" />
+                <img
+                    src={netbuster}
+                    alt="A screenshot of the main landing page for Netbuster."
+                    className="project-screenshot"
+                />
                 <p>
                     Netbuster is a web-based video library that I made in one
                     week together with Brandon Piquant. We wanted to recreate
@@ -117,13 +123,17 @@ export default function Projects() {
                     Check out the:{" "}
                     <a href="https://github.com/guantanamobosch/netbuster_project">
                         Github Repo
-                    </a>{" "}
-                    or <a href="">the site itself</a>!
+                    </a>
+                    !
                 </p>
             </div>
             <h3>Snake - Desktop Game</h3>
             <div className="project-container">
-                <img src={snake} alt="" className="project-screenshot" />
+                <img
+                    src={snake}
+                    alt="A screenshot of the webpage for the game snake, which consists of a white square in the center with a green, geometric snake and a red square as the apple. Additionally, another geometric snake wraps around the center gameboard."
+                    className="project-screenshot"
+                />
                 <p>
                     Snake is a desktop game that I designed as my first ever
                     project. I wanted to test my ability to use JavaScript and

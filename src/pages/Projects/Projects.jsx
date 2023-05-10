@@ -1,8 +1,8 @@
 import React from "react";
-import jam from "/Images/JAM.png";
-import slackoverflow from "/Images/SLACKOVERFLOW.png";
-import netbuster from "/Images/NETBUSTER.png";
-import snake from "/Images/SNAKE.png";
+import jam from "../../Images/JAM.png";
+import slackoverflow from "../../Images/SLACKOVERFLOW.png";
+import netbuster from "../../Images/NETBUSTER.png";
+import snake from "../../Images/SNAKE.png";
 import "./Projects.css";
 
 export default function Projects() {

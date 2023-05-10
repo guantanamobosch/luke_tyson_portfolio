@@ -1,7 +1,7 @@
 import React from "react";
 import "./MyResume.css";
-import pageOne from "/Images/resume.jpg";
-import pageTwo from "/Images/resume_pg2.jpg";
+import pageOne from "../../Images/resume.jpg";
+import pageTwo from "../../Images/resume_pg2.jpg";
 
 export default function MyResume() {
     const onButtonClick = () => {

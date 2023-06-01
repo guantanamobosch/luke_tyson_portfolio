@@ -10,7 +10,7 @@ export default function NavBar() {
             </div>
 
             <div id="navbar-links">
-                <Link to="/">
+                <Link to="/luke_tyson_portfolio">
                     <h3>projects</h3>
                 </Link>
 

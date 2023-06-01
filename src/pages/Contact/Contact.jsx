@@ -16,7 +16,14 @@ export default function Contact() {
                 >
                     <GitHubIcon />
                 </a>{" "}
-                - github.com/guantanamobosch
+                -{" "}
+                <a
+                    href="https://github.com/guantanamobosch"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    github.com/guantanamobosch
+                </a>
             </div>
             <div className="single-contact">
                 <a
@@ -26,7 +33,14 @@ export default function Contact() {
                 >
                     <EmailIcon />
                 </a>{" "}
-                - luketyson17@gmail.com
+                -{" "}
+                <a
+                    href="https://github.com/guantanamobosch"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    luketyson17@gmail.com
+                </a>
             </div>
             <div className="single-contact">
                 <a
@@ -36,7 +50,14 @@ export default function Contact() {
                 >
                     <LinkedInIcon />
                 </a>{" "}
-                - linkedin.com/in/luke-tyson-dev/
+                -{" "}
+                <a
+                    href="https://www.linkedin.com/in/luke-tyson-dev/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    linkedin.com/in/luke-tyson-dev/
+                </a>
             </div>
             <hr />
             <div className="single-contact">

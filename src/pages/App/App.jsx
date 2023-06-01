@@ -20,7 +20,7 @@ function App() {
                 <div className="route-card">
                     <Routes>
                         <Route
-                            path="/luke_tyson_portfolio/"
+                            path="/luke_tyson_portfolio"
                             element={<Projects />}
                         />
                         <Route path="/resume" element={<MyResume />} />

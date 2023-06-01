@@ -11,11 +11,17 @@ export default function Projects() {
             <h1>Projects</h1>
             <h3>Jam - Fullstack Web-based Chat Application</h3>
             <div className="project-container">
-                <img
-                    src={jam}
-                    alt="Screenshot of the main chat page for Jam."
-                    className="project-screenshot"
-                />
+                <a
+                    href="https://github.com/guantanamobosch/Jam"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <img
+                        src={jam}
+                        alt="Screenshot of the main chat page for Jam."
+                        className="project-screenshot"
+                    />
+                </a>
                 <p>
                     Jam is a chat application that I made in one week together
                     with Ali Colak and Sean Munjal. We envisioned a sleek and
@@ -37,25 +43,34 @@ export default function Projects() {
                 </p>
                 <p className="repo-and-site">
                     Check out the:{" "}
-                    <a href="https://github.com/guantanamobosch/Jam">
-                        Github Repo
+                    <a
+                        href="https://github.com/guantanamobosch/Jam"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Github Repo!
                     </a>{" "}
-                    or{" "}
-                    <a href="https://jam-chat.herokuapp.com/">
+                    (site currently under development)
+                    {/* <a href="https://jam-chat.herokuapp.com/" target="_blank" rel="noreferrer">
                         the site itself
-                    </a>
-                    !
+                    </a> */}
                 </p>
             </div>
             <h3>
                 Slack Overflow - Fullstack Web-based Message Board Application
             </h3>
             <div className="project-container">
-                <img
-                    src={slackoverflow}
-                    alt=""
-                    className="project-screenshot"
-                />
+                <a
+                    href="https://slackoverflow.herokuapp.com/accounts/login/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <img
+                        src={slackoverflow}
+                        alt=""
+                        className="project-screenshot"
+                    />
+                </a>
                 <p>
                     Slack Overflow is a message board application that I made in
                     one week together with Josh Pent. For this project, we chose
@@ -78,23 +93,41 @@ export default function Projects() {
                 </p>
                 <p className="repo-and-site">
                     Check out the:{" "}
-                    <a href="https://github.com/joshuapent/SlackOverFlow">
+                    <a
+                        href="https://github.com/joshuapent/SlackOverFlow"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         Github Repo
                     </a>{" "}
                     or{" "}
-                    <a href="https://slackoverflow.herokuapp.com/accounts/login/">
+                    <a
+                        href="https://slackoverflow.herokuapp.com/accounts/login/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         the site itself
                     </a>
                     !
                 </p>
+                <p className="repo-and-site">
+                    Username: <strong>testaccount</strong> <br />
+                    Password: <strong>testword</strong>
+                </p>
             </div>
             <h3>Netbuster - Fullstack Web-based Video Library</h3>
             <div className="project-container">
-                <img
-                    src={netbuster}
-                    alt="A screenshot of the main landing page for Netbuster."
-                    className="project-screenshot"
-                />
+                <a
+                    href="https://netbuster95.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <img
+                        src={netbuster}
+                        alt="A screenshot of the main landing page for Netbuster."
+                        className="project-screenshot"
+                    />
+                </a>
                 <p>
                     Netbuster is a web-based video library that I made in one
                     week together with Brandon Piquant. We wanted to recreate
@@ -120,19 +153,41 @@ export default function Projects() {
                 </p>
                 <p className="repo-and-site">
                     Check out the:{" "}
-                    <a href="https://github.com/guantanamobosch/netbuster_project">
+                    <a
+                        href="https://github.com/guantanamobosch/netbuster_project"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         Github Repo
+                    </a>{" "}
+                    or{" "}
+                    <a
+                        href="https://netbuster95.herokuapp.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        the site itself
                     </a>
                     !
+                </p>
+                <p className="repo-and-site">
+                    Username: <strong>testaccount</strong> <br />
+                    Password: <strong>test</strong>
                 </p>
             </div>
             <h3>Snake - Desktop Game</h3>
             <div className="project-container">
-                <img
-                    src={snake}
-                    alt="A screenshot of the webpage for the game snake, which consists of a white square in the center with a green, geometric snake and a red square as the apple. Additionally, another geometric snake wraps around the center gameboard."
-                    className="project-screenshot"
-                />
+                <a
+                    href="https://guantanamobosch.github.io/SEI-Project1-Snake-Game/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <img
+                        src={snake}
+                        alt="A screenshot of the webpage for the game snake, which consists of a white square in the center with a green, geometric snake and a red square as the apple. Additionally, another geometric snake wraps around the center gameboard."
+                        className="project-screenshot"
+                    />
+                </a>
                 <p>
                     Snake is a desktop game that I designed as my first ever
                     project. I wanted to test my ability to use JavaScript and
@@ -152,11 +207,19 @@ export default function Projects() {
                 </p>
                 <p className="repo-and-site">
                     Check out the:{" "}
-                    <a href="https://github.com/guantanamobosch/SEI-Project1-Snake-Game">
+                    <a
+                        href="https://github.com/guantanamobosch/SEI-Project1-Snake-Game"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         Github Repo
                     </a>{" "}
                     or{" "}
-                    <a href="https://guantanamobosch.github.io/SEI-Project1-Snake-Game/">
+                    <a
+                        href="https://guantanamobosch.github.io/SEI-Project1-Snake-Game/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         the site itself
                     </a>
                     !

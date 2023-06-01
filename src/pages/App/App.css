@@ -51,7 +51,6 @@ body {
 
 #headshot-and-contact-container {
     border-radius: 10px;
-    /* border: 2px solid var(--blush); */
     background-color: #f151259c;
     max-width: 25%;
     height: 95%;
@@ -62,7 +61,6 @@ body {
 }
 
 .route-card {
-    /* border: 2px solid var(--blush); */
     background-color: white;
     border-radius: 10px;
     max-width: 70%;

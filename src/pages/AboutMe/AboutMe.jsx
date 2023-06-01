@@ -1,4 +1,7 @@
 import React from "react";
+// import belay from "../../Images/belay.jpeg";
+// import climb from "../../Images/climb.jpeg";
+// import mix from "../../Images/mix.jpeg";
 import "./AboutMe.css";
 
 export default function AboutMe() {
@@ -35,6 +38,23 @@ export default function AboutMe() {
                 local hero of slam poetry, and a lifelong folder of all things
                 laundry.
             </p>
+            {/* <div id="images-container">
+                <img
+                    className="about-me-pictures"
+                    src={mix}
+                    alt="Luke mixing an album in a studio."
+                />
+                <img
+                    className="about-me-pictures"
+                    src={belay}
+                    alt="Luke locked into a belay loop and wearing belay glasses."
+                />
+                <img
+                    className="about-me-pictures"
+                    src={climb}
+                    alt="Luke climbing on a rock wall supported by a rope."
+                />
+            </div> */}
             <p>
                 Please use the nav bar above to check out my resume and my
                 portfolio projects. If you are a recruiter, employer, or fellow

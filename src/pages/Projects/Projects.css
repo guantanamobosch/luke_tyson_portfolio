@@ -29,8 +29,11 @@
     text-indent: 30px;
 }
 
-.project-screenshot {
+.project-container > a {
     align-self: center;
+}
+
+.project-screenshot {
     min-width: 300px;
     max-width: 400px;
 }

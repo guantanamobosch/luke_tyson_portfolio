@@ -32,14 +32,13 @@ export default function Projects() {
                 <p>
                     To create our app we used a <strong>full MERN-stack</strong>
                     , as well as <strong>socket.io</strong>,{" "}
-                    <strong>axios</strong>, <strong>Material UI</strong>, and{" "}
-                    <strong>Bcrypt</strong>. As a teammate, I focused primarily
-                    on backend development, although I did choose the color
-                    scheme and designed the UI for the main chat page of the
-                    app. In the backend, I built our Mongoose models, wrote most
-                    of our API requests, managed our database, and collaborated
-                    with Sean to build and refine our socket connections for the
-                    chat interface.
+                    <strong>Material UI</strong>, and <strong>Bcrypt</strong>.
+                    As a teammate, I focused primarily on backend development,
+                    although I did choose the color scheme and designed the UI
+                    for the main chat page of the app. In the backend, I built
+                    our Mongoose models, wrote most of our API requests, managed
+                    our database, and collaborated with Sean to build and refine
+                    our socket connections for the chat interface.
                 </p>
                 <p className="repo-and-site">
                     Check out the:{" "}
@@ -50,10 +49,19 @@ export default function Projects() {
                     >
                         Github Repo!
                     </a>{" "}
-                    (site currently under development)
-                    {/* <a href="https://jam-chat.herokuapp.com/" target="_blank" rel="noreferrer">
+                    or{" "}
+                    <a
+                        href="https://jam-chat.herokuapp.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         the site itself
-                    </a> */}
+                    </a>
+                    !
+                </p>
+                <p className="repo-and-site">
+                    Email: <strong>test@email.com</strong> <br />
+                    Password: <strong>test</strong>
                 </p>
             </div>
             <h3>

@@ -1,4 +1,5 @@
 import React from "react";
+import petDOC from "../../Images/PETDOC.png";
 import jam from "../../Images/JAM.png";
 import slackoverflow from "../../Images/SLACKOVERFLOW.png";
 import netbuster from "../../Images/NETBUSTER.png";
@@ -9,10 +10,85 @@ export default function Projects() {
     return (
         <div id="big-project-container">
             <h1>Projects</h1>
+            <h3>petDOC - Fullstack Web-based Pet Health Resource</h3>
+            <div className="project-container">
+                <a
+                    href="https://pet-doc-4af8968aa1e4.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <img
+                        src={petDOC}
+                        alt="Screenshot of the Dashboard page of petDOC"
+                        className="project-screenshot"
+                    />
+                </a>
+                <p>
+                    petDOC is an application made in collaboration with a team
+                    of 3 other software developers and a team of 3 UX/UI
+                    designers for General Assembly's 2023 NAM1 Spring Hackathon.
+                    It was fully built from the point of initial theme
+                    assignment through design and development in one week. It is
+                    currently deployed through Heroku.
+                </p>
+                <p>
+                    Our UX/UI team discovered through interviews with potential
+                    users in our target demographic that a mobile application
+                    would be preferable, so we built the app with mobile-first
+                    principles in mind using a MERN-stack with the intention of
+                    porting it into React Native in the future.
+                </p>
+                <p>
+                    The core functionality of the app in its current iteration
+                    is twofold: we have an AI-powered symptom checker/assessment
+                    and a dog breed guide for users to research information
+                    about their pet. The symptom checker prompts for users to
+                    input their dog's symptoms and symptom duration, passes this
+                    information along as a prompt to the OpenAI API, and returns
+                    suggestions about how to proceed with treatment for the
+                    user's pet. We have, of course, added a caveat that this
+                    advice is not from a medical professional, and that the user
+                    should pursue an opinion from a medical professional. The
+                    breed guide calls for information from a free dog API to
+                    populate our application with the names of each dog breed
+                </p>
+                <p>
+                    We plan to develop our own API for dog-based information
+                    centered around the functionality of our app, and we plan to
+                    develop our own AI program to provide information catered to
+                    our users and curated by medical professionals.
+                    Additionally, we plan to allow vets to create their own
+                    accounts in order for users to confirm possible treatment
+                    plans with their medical professional(s) before proceeding.
+                </p>
+                <p className="repo-and-site">
+                    Check out the:{" "}
+                    <a
+                        href="https://github.com/guantanamobosch/petDOC"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Github Repo!
+                    </a>{" "}
+                    or{" "}
+                    <a
+                        href="https://pet-doc-4af8968aa1e4.herokuapp.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        the site itself
+                    </a>
+                    !
+                </p>
+                <p className="repo-and-site">
+                    Email: <strong>test</strong> <br />
+                    Password: <strong>test</strong>
+                </p>
+            </div>
             <h3>Jam - Fullstack Web-based Chat Application</h3>
             <div className="project-container">
                 <a
-                    href="https://github.com/guantanamobosch/Jam"
+                    href="https://jam-chat.herokuapp.com/"
                     target="_blank"
                     rel="noreferrer"
                 >
